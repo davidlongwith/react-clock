@@ -1,3 +1,25 @@
+# React Clock
+
+A digital clock display featuring reusable React components.
+
+https://davidlongwith.github.io/react-clock/
+
+#### Development Notes:
+
+Attribution:
+
+“Learning React by Alex Banks and Eve Porcello (O’Reilly). Copyright 2017 Alex Banks, Eve Porcello,
+978-1-491-95462-1.”
+
+Workflow:
+
+1. Commit local changes
+2. Push to GitHub
+3. Publish new build to GitHub Pages branch with script "npm run deploy"
+
+Deploying a React App to GitHub Pages:
+https://github.com/gitname/react-gh-pages
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -26,6 +48,10 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run deploy`
+
+Generate a production build, push to gh-pages branch on GitHub, and publish online with GitHub Pages.
 
 ### `npm run eject`
 
