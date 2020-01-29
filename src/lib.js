@@ -13,7 +13,7 @@ export const civilianHours = clockTime => ({
 
 export const appendAMPM = clockTime => ({
   ...clockTime,
-  ampm: clockTime.hours >= 12 ? "pm" : "am"
+  ampm: clockTime.hours >= 12 ? "PM" : "AM"
 });
 
 export const prependZero = key => clockTime => ({

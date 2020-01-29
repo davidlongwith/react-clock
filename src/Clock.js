@@ -1,5 +1,6 @@
 import React from "react";
 import { Component } from "react";
+import "./css/Clock.css";
 import { getClockTime } from "./lib";
 
 export default class Clock extends Component {
@@ -22,7 +23,7 @@ export default class Clock extends Component {
         <span>{minutes}</span>
         <span>:</span>
         <span>{seconds}</span>
-        <span>{ampm}</span>
+        <span className="ampm">{ampm}</span>
       </div>
     );
   }
