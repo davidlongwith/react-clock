@@ -12,6 +12,7 @@ body {
   background-color: #000;
   display: flex;
   justify-content: center;
+  max-height: 100vh;
   min-height: 100vh;
 }
 
