@@ -37,7 +37,7 @@ export const doubleDigits = civilianTime =>
 export const getClockTime = compose(
   getCurrentTime,
   abstractClockTime,
-  convertToCivilianTime,
   appendAMPM,
+  convertToCivilianTime,
   doubleDigits
 );
